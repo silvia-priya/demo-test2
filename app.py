@@ -1,7 +1,7 @@
 from flask import Flask,request,jsonify
 import joblib,numpy as np
 
-app=Flask(__name__)
+app=Flask(__name__) #app creation
 
 model=joblib.load("filename.pkl")
 
